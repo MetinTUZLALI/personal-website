@@ -23,7 +23,7 @@ body {
 }
 /* --------- Header --------- */
 header {
-  background-color: #284f75;
+  background-image: url("../images/banner.jpg");
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -47,9 +47,10 @@ header section {
 .anime-h1 {
   font-size: 80px;
   font-weight: 600;
-  color:#ABF7D5;
+  color:#060038;
   text-align: center;
   display: inline-block;
+  
  /*  word-wrap:break-word; */
   /* overflow-wrap: break-word; */
 }
