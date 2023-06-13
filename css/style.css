@@ -151,12 +151,20 @@ main > article {
   border-radius: 1%;
 }
 #Home{
-display: flex;
-flex-direction: column;
-padding: 3rem;
+
+flex-wrap: wrap;
+padding: 2rem;
+font-family: 'Brush Script MT', cursive;
+font-size:xx-large;
+
 }
 #Home .card, #Home .card img{
   width: 100%;
+  
+}
+
+#certificate01 {
+ width: 50px;
 }
 #Products{
   display: flex;
@@ -248,7 +256,7 @@ article .card {
 }
 .card img{
   height: 25rem;
-  width: 65rem;
+
   box-sizing: border-box;
 }
 
